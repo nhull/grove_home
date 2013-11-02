@@ -1,0 +1,151 @@
+/* Space out content a bit */
+body {
+  padding-top: 60px;
+  padding-bottom: 20px;
+}
+
+/*navigation bar */
+
+.navbar{
+	padding:0 8.5%;
+	}
+
+
+/*page divider*/
+.page{
+	width:100%;
+	border-bottom:solid 2px #f2efed;
+	padding:5% 0 7% 0;
+	}
+h1, h2, h3, h4, h5, h6 .btn{
+	font-family: 'Ubuntu', Helvetica, Arial, sans-serif;
+	}
+p{
+	font-family:'Roboto', Helvetica, Arial, sans-serif;
+	font-weight:300;
+	font-size:18px;
+	text-shadow:0 1px 2px rgba(255,255,255,0.75);
+	}
+
+.advisortext{
+	
+	font-family:'Roboto', Helvetica, Arial, sans-serif;
+	font-weight:300;
+	line-height:2px;
+	font-size:12px;
+	text-shadow:0 1px 2px rgba(255,255,255,0.75);
+	
+	}
+.contactquote{
+	font-family:'Roboto', Helvetica, Arial, sans-serif;
+	font-weight:300;
+	color:#bab2ad;
+	font-size:44px;
+	text-shadow:0 1px 2px rgba(255,255,255,0.75);
+	
+	}
+
+.margin-bottom{
+	margin-bottom:5%;
+	
+	}
+
+
+/*btn styles*/
+
+.btn{
+	font-weight:bold;
+	}
+
+.btn-link{
+	text-decoration:none;
+	}
+
+.btn-success, .btn-lg{
+	background-color:#faf7f5;
+	border-color:#faf7f5;
+	color:#d0c8c2;
+	text-shadow:0 1px 2px rgba(255,255,255,0.75);
+	}
+.btn-success:hover, .btn-lg:hover{
+	background-color: rgba(255,255,255,0.75);
+	}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Custom page header */
+.header {
+  border-bottom: 1px solid #e5e5e5;
+}
+/* Make the masthead heading the same height as the navigation */
+.header h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+  padding-bottom: 19px;
+}
+
+/* Custom page footer */
+
+.footer{
+	width:100%;
+	background:#F7941D;
+	padding-top:2%;
+	}
+.footertext{
+	color:#FFD59D
+	}
+
+/* Customize container */
+@media (min-width: 768px) {
+  .container {
+    max-width: 860px;
+  }
+}
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+  background-image:url(../images/jumbotron/jumbotron.png);
+}
+.jumbotron .btn {
+  font-size: 21px;
+  padding: 14px 24px;
+}
+
+/* Supporting marketing content */
+.marketing {
+  margin: 40px 0;
+}
+.marketing p + h4 {
+  margin-top: 28px;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+  .footer {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 30px;
+  }
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0;
+  }
+}
