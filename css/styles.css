@@ -9,7 +9,14 @@ body {
 .navbar{
 	padding:0 8.5%;
 	}
-
+.jumbotron{
+	height:400px;
+	
+	}
+	
+.dropdown-menu{
+	background-color:#faf7f5;
+	}
 
 /*page divider*/
 .page{
@@ -19,7 +26,8 @@ body {
 	}
 h1, h2, h3, h4, h5, h6 .btn{
 	font-family: 'Ubuntu', Helvetica, Arial, sans-serif;
-	}
+}
+
 p{
 	font-family:'Roboto', Helvetica, Arial, sans-serif;
 	font-weight:300;
@@ -28,7 +36,6 @@ p{
 	}
 
 .advisortext{
-	
 	font-family:'Roboto', Helvetica, Arial, sans-serif;
 	font-weight:300;
 	line-height:2px;
@@ -38,16 +45,26 @@ p{
 	}
 .contactquote{
 	font-family:'Roboto', Helvetica, Arial, sans-serif;
-	font-weight:300;
+	font-weight:100;
+	font-style:italic;
 	color:#bab2ad;
-	font-size:44px;
+	font-size:50px;
 	text-shadow:0 1px 2px rgba(255,255,255,0.75);
 	
 	}
 
+.partnerstext{
+	font-family:'Roboto', Helvetica, Arial, sans-serif;
+	font-weight:100;
+	font-style:italic;
+	color:#bab2ad;
+	font-size:26px;
+	text-shadow:0 1px 2px rgba(255,255,255,0.75);
+	}
+
+
 .margin-bottom{
 	margin-bottom:5%;
-	
 	}
 
 
@@ -62,12 +79,17 @@ p{
 	}
 
 .btn-success, .btn-lg{
+	font-family:'Roboto', Helvetica, Arial, sans-serif;
+	font-weight:100;
 	background-color:#faf7f5;
 	border-color:#faf7f5;
 	color:#d0c8c2;
 	text-shadow:0 1px 2px rgba(255,255,255,0.75);
 	}
 .btn-success:hover, .btn-lg:hover{
+	background-color: rgba(255,255,255,0.75);
+	}
+	.btn-success:active, .btn-lg:active{
 	background-color: rgba(255,255,255,0.75);
 	}
 
@@ -97,9 +119,14 @@ p{
 	width:100%;
 	background:#F7941D;
 	padding-top:2%;
+	position:relative;
+	top:0;
+	clear:both;
 	}
+
 .footertext{
-	color:#FFD59D
+	color:#FFD59D;
+	font-size:11px;
 	}
 
 /* Customize container */

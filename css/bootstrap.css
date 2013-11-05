@@ -2886,11 +2886,10 @@ input[type="button"].btn-block {
   list-style: none;
   font-size: 14px;
   background-color: #f2efed;
-  border: 1px solid #cccccc;
-  border: 1px solid rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-  -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+  border-top: 1px solid #dfdcdb;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25);
   background-clip: padding-box;
 }
 .dropdown-menu.pull-right {
@@ -2915,13 +2914,13 @@ input[type="button"].btn-block {
 .dropdown-menu > li > a:hover,
 .dropdown-menu > li > a:focus {
   text-decoration: none;
-  color: #262626;
+  color: #fba749;
   background-color: transparent;
 }
 .dropdown-menu > .active > a,
 .dropdown-menu > .active > a:hover,
 .dropdown-menu > .active > a:focus {
-  color: #837870;
+  color:#fba749;
   text-decoration: none;
   outline: 0;
   background-color: #428bca;
@@ -2948,7 +2947,7 @@ input[type="button"].btn-block {
 .dropdown-header {
   display: block;
   padding: 3px 20px;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 1.428571429;
   color: #b1a298;
 }
@@ -3421,7 +3420,6 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .nav .open > a:hover,
 .nav .open > a:focus {
   background-color: #eeeeee;
-  border-color: #b9ada5;
 }
 .nav .open > a .caret,
 .nav .open > a:hover .caret,
@@ -3459,7 +3457,6 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .nav-tabs > li.active > a:focus {
   color: #555555;
   background-color: #faf7f5;
-  border: 1px solid #dddddd;
   border-bottom-color: transparent;
   cursor: default;
 }
@@ -3665,6 +3662,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
   }
 }
 .navbar-collapse {
+	width:100%;
   max-height: 340px;
   overflow-x: visible;
   padding-right: 15px;
@@ -3798,7 +3796,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
   display: block;
   width: 22px;
   height: 2px;
-  border-radius: 1px;
+ 
 }
 .navbar-toggle .icon-bar + .icon-bar {
   margin-top: 4px;
@@ -3955,6 +3953,8 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 .navbar-default .navbar-nav > li > a {
   color: #b1a298;
+  letter-spacing:2px;
+  font-weight:100;
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
